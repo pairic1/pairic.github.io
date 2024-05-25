@@ -35,11 +35,9 @@ body {
 .navbar {
 	border-radius: 0px;
 	background: none;
-	/*box-shadow: 0 10px 50px 0 rgba(58, 123, 213, 0.1); */
 	display: flex;
 	height: 74px;
 	margin-bottom: 0px;
-	/*position: sticky;*/
 	top: 0;
 	width: 100%;
 	z-index: 100;
@@ -100,12 +98,14 @@ nav#desktop-menu {
 	transform: translate(20%, -60%);
 }
 
+/* 
+Hiding mobile responsiveness for blurry bg image for now, looks odd with mobile device headers
 @media (max-width: 757px) {
 	.abstract-bg {
 		transform: translate(-20%, -90%);
 		scale: .7;
 	  }
-}
+} */
 
 span#gradient-text {
 	background: linear-gradient(140deg, rgba(58, 123, 213, 1) 0%, rgba(0, 210, 255, 1) 100%);

@@ -9,6 +9,10 @@ body {
 	-moz-osx-font-smoothing: antialiased;
 	font-family: "Noto Sans", sans-serif;
 	color: #363D44;
+}
+
+.overflow-wrapper {
+	position: relative;
 	overflow-x: hidden;
 }
 
@@ -121,19 +125,6 @@ span#gradient-text {
 .top-content h2,
 .top-content p {
 	color: #fff;
-}
-
-/* Particles Animation */
-div#particles-js {
-	opacity: .5;
-}
-
-@media (max-width: 989px) {
-	.top-content-container {
-		background-image: url("../images/header-bg.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
 }
 
 /* Body Spacing */
@@ -465,6 +456,10 @@ footer {
 	text-align: center;
 }
 
+footer h5 {
+	margin-bottom: 10px;
+}
+
 footer .row {
 	align-items: center;
 	display: flex;
@@ -505,15 +500,4 @@ ul#social-links a li svg {
 /* Social Links Hover */
 ul#social-links a li svg:hover {
 	fill: #00d2ff;
-}
-
-/* Shoutout */
-.shoutout {
-	width: 100%;
-}
-
-.shoutout p {
-	color: #363D44;
-	font-size: 14px;
-	margin-bottom: 0px;
 }

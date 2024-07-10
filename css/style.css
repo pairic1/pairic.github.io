@@ -271,7 +271,15 @@ a.custom-button.button-on-dark:hover {
 	opacity: .8;
 }
 
+a.project-button {
+	margin-top: 16px;
+}
+
 /* Portfolio Previews */
+#work {
+	padding-bottom: 7%;
+}
+
 .portfolio-box {
 	-ms-flex-align: end;
 	-ms-flex-direction: row;
